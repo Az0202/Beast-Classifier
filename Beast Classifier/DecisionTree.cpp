@@ -38,11 +38,6 @@ void DecisionTree::insert(LinkedBinaryTree::Position p, Elem question, Elem yesA
 
 DecisionTree::~DecisionTree(){
     writeTreeToFile();
-    //delet Tree using removeAboveExternal() function
-    
-    /*while(!empty()){ //while tree is not empty
-        removeAboveExternal(root());
-    } */
 }
 
 void DecisionTree::initializeTree(LinkedBinaryTree::Position theRoot){
