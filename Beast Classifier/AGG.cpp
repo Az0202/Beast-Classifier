@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    ifstream input("decisiontree.dat");  //do i need to write theis cod ein the main? because i think i already did it the the constructor
+    ifstream input("decisiontree.dat");  
     DecisionTree game = DecisionTree("decisiontree.dat");
     DecisionTree::Position pos = game.root(); //position of root
     bool run;
